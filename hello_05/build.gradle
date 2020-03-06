@@ -36,5 +36,5 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = 'hello_04.AppKt'
+    mainClassName = 'hello_05.AppKt'
 }

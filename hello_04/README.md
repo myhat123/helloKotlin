@@ -47,12 +47,6 @@ build.gradle
 
 id "com.github.johnrengelman.shadow" version "5.2.0"
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'hello_04.AppKt'
-    }
-}
-
 gradle build 之后，生成了
 hello_04-all.jar
 hello_04.jar
