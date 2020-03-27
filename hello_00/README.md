@@ -33,3 +33,13 @@ hello world
 >>> println("hello world中国")
 hello world中国
 >>> 
+
+使用第三方包
+
+$ kotlinc -cp ./libs/joda-time-2.10.5.jar:./libs/joda-convert-2.2.1.jar
+Welcome to Kotlin version 1.3.70 (JRE 1.8.0_211-b12)
+Type :help for help, :quit for quit
+>>> import org.joda.time.DateTime
+>>> var dt = DateTime()
+>>> dt.getYear()
+res2: kotlin.Int = 2020
