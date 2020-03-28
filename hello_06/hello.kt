@@ -8,10 +8,11 @@ fun main(args: Array<String>) {
     
     val fmt = DateTimeFormat.forPattern("HH:mm:ss")
     var x = start
-    while (x.isBefore(end)) {
+    while (!x.isAfter(end)) {
         list.add(x)
         var y = fmt.print(x)
         println("time: ${y}")
         x = x.plusMinutes(30)
     }
+    println(list)
 }
