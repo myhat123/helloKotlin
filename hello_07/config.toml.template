@@ -1,0 +1,5 @@
+[hive]
+driver = "org.apache.hive.jdbc.HiveDriver"
+url = "jdbc:transwarp2://10.224.xx.xx:10000/default"
+username = "test"
+password = "xxxx"
