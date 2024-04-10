@@ -69,3 +69,10 @@ java代码编译后，单独打一个jar包
 > kotlinc -cp ./libs/grpc-kotlin-stub-1.4.1.jar:./libs/grpc-protobuf-1.62.2.jar:./libs/protobuf-kotlin-4.26.1.jar:./libs/grpc-stub-1.62.2.jar:./libs/grpc-netty-1.62.2.jar:./libs/protobuf-java-4.26.1.jar:./libs/grpc-core-1.62.2.jar:./libs/grpc-api-1.62.2.jar:./libs/utils.jar:./helloworld.jar server.kt -d server.jar
 
 > kotlin -cp ./libs/grpc-kotlin-stub-1.4.1.jar:./libs/grpc-protobuf-1.62.2.jar:./libs/protobuf-kotlin-4.26.1.jar:./libs/grpc-stub-1.62.2.jar:./libs/grpc-netty-1.62.2.jar:./libs/protobuf-java-4.26.1.jar:./libs/grpc-core-1.62.2.jar:./libs/grpc-api-1.62.2.jar:./libs/guava-33.1.0-jre.jar:./libs/annotations-api-6.0.53.jar:./libs/grpc-netty-shaded-1.62.2.jar:./libs/grpc-protobuf-lite-1.62.2.jar:./libs/utils.jar:./helloworld.jar:./server.jar:. main.ServerKt
+
+完整jar包
+========
+
+> kotlinc -cp ./libs/grpc-kotlin-stub-1.4.1.jar:./libs/grpc-protobuf-1.62.2.jar:./libs/protobuf-kotlin-4.26.1.jar:./libs/grpc-stub-1.62.2.jar:./libs/grpc-netty-1.62.2.jar:./libs/protobuf-java-4.26.1.jar:./libs/grpc-core-1.62.2.jar:./libs/grpc-api-1.62.2.jar:./libs/utils.jar:./helloworld.jar -include-runtime server.kt -d server.jar
+
+> java -cp ./libs/grpc-kotlin-stub-1.4.1.jar:./libs/grpc-protobuf-1.62.2.jar:./libs/protobuf-kotlin-4.26.1.jar:./libs/grpc-stub-1.62.2.jar:./libs/grpc-netty-1.62.2.jar:./libs/protobuf-java-4.26.1.jar:./libs/grpc-core-1.62.2.jar:./libs/grpc-api-1.62.2.jar:./libs/guava-33.1.0-jre.jar:./libs/annotations-api-6.0.53.jar:./libs/grpc-netty-shaded-1.62.2.jar:./libs/grpc-protobuf-lite-1.62.2.jar:./libs/utils.jar:./helloworld.jar:./server.jar main.ServerKt
