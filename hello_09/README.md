@@ -20,6 +20,8 @@ grpc-protobuf-lite-1.62.2.jar
 
 还需要protoc插件
 
+protoc 26.1
+
 https://repo1.maven.org/maven2/io/grpc/protoc-gen-grpc-kotlin/
 
 protoc-gen-grpc-kotlin-1.4.1-jdk8.jar
